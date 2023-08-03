@@ -13,13 +13,15 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.Azure.Functions.Worker" Version="1.18.0" />
-    <PackageReference Include="Microsoft.Azure.Functions.Worker.Sdk" Version="1.12.0" />
+    <PackageReference Include="Microsoft.Azure.Functions.Worker.Sdk" Version="1.13.0" />
     <PackageReference Include="Microsoft.Azure.Functions.Worker.Extensions.CosmosDB" Version="4.4.0" />
     <PackageReference Include="Microsoft.Azure.Functions.Worker.Extensions.Http" Version="3.0.13" />
     <PackageReference Include="Microsoft.Azure.Functions.Worker.Extensions.Http.AspNetCore" Version="1.0.0-preview2" />
     <PackageReference Include="Microsoft.Azure.Functions.Worker.Extensions.EventGrid" Version="3.3.0" />
     <PackageReference Include="Microsoft.Azure.Functions.Worker.Extensions.EventHubs" Version="5.5.0" />
+    <PackageReference Include="Microsoft.Azure.Functions.Worker.Extensions.ServiceBus" Version="5.12.0" />
     <PackageReference Include="Microsoft.Azure.Functions.Worker.Extensions.Storage" Version="6.0.0" />
+    <PackageReference Include="Microsoft.Azure.Functions.Worker.Extensions.Tables" Version="1.2.0-preview1" />
     <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
     <PackageReference Include="System.Net.NameResolution" Version="4.3.0" />
   </ItemGroup>
